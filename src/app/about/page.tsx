@@ -35,9 +35,9 @@ function AboutMe() {
           <p className="font-medium font-circular text-md text-gray-500 dark:text-whity mt-3 mb-6">
             Here you can read my{" "}
             <a
-              href="https://drive.google.com/file/d/1phTNfh4fAFH_K3lwRiWAC7WWTSgRlpvt/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GBNDP9z4nIL6ih53nRTAIrjY-KGzaVPH/view?usp=sharing"
               target="_blank"
-              className="underline hover:text-gray-900"
+              className="underline hover:text-gold-500"
             >
               resume
             </a>{" "}

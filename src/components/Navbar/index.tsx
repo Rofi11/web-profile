@@ -17,7 +17,7 @@ function Navbar() {
 
         <ul className="flex flex-row font-medium text-xs text-right mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:border-gray-500 mb-4 sm:mb-4 md:mb-0 lg:mb=0">
           <Link
-            href={"portfolio"}
+            href={"/project"}
             // onClick={() => {
             //   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
             // }}

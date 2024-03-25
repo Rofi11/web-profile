@@ -36,10 +36,10 @@ export default function MainPage() {
                   NextJS
                 </span>
                 <span className="bg-green-200 text-slate-900 text-xs font-semibold mr-2 m-1 px-2.5 py-0.5 rounded">
-                  Node Js
+                  NodeJS
                 </span>
                 <span className="bg-yellow-400 text-yellow-900 text-xs font-semibold mr-2 m-1 px-2.5 py-0.5 rounded">
-                  Express Js
+                  ExpressJS
                 </span>
                 <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 m-1 px-2.5 py-0.5 rounded">
                   MySql

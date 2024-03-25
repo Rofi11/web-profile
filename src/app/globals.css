@@ -106,6 +106,10 @@
     background-color: #fce96a;
     color: #633112;
   }
+  .TypeScript {
+    background-color: #30aef2;
+    color: #ffffff;
+  }
   .jQuery {
     background-color: #a5f3fc;
     color: #164e63;
@@ -153,5 +157,13 @@
   .NextJS {
     background-color: #0f0f0f;
     color: #ffffff;
+  }
+  .MySql {
+    background-color: #406be1;
+    color: #fff;
+  }
+  .ChakraUi {
+    background-color: #4ad098;
+    color: #236b2f;
   }
 }

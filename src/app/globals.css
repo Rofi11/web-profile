@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,9 +14,9 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +24,146 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+/* Scrollbar */
+* {
+  scrollbar-width: thin;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  /* background: var(--primary); */
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(201, 201, 201);
+  border-radius: 14px;
+  /* border: 1px solid rgba(255, 255, 255, 0); */
+}
+
+/* Font */
+/* @font-face {
+  font-family: "CircularStd";
+  src: url("./font/CircularStd-Book.woff");
+} */
+
+/* @font-face {
+  font-family: "MarkPro";
+  src: url("./font/MarkPro-Heavy.woff");
+} */
+
+@layer base {
+  html {
+    font-family: "Sora", sans-serif;
+  }
+
+  .hero-body {
+    padding: 5% 10% 0%;
+  }
+
+  .default-body {
+    padding: 0% 16px;
+  }
+  .large-body {
+    padding: 0% 25%;
+  }
+  .medium-body {
+    padding: 0% 13%;
+  }
+  .small-body {
+    padding: 0% 10%;
+  }
+  .next-section {
+    padding: 0% 16px 0% 16px;
+  }
+
+  .bg-dark-black {
+    background-color: #10101a;
+  }
+  .bg-blacky {
+    background-color: #1d1e29;
+  }
+
+  .text-whity {
+    color: #c4c4c4;
+  }
+
+  .ReactJS {
+    background-color: #bae6fd;
+    color: #075985;
+  }
+  .TailwindCSS {
+    background-color: #a5f3fc;
+    color: #164e63;
+  }
+  .JavaScript {
+    background-color: #fce96a;
+    color: #633112;
+  }
+  .TypeScript {
+    background-color: #30aef2;
+    color: #ffffff;
+  }
+  .jQuery {
+    background-color: #a5f3fc;
+    color: #164e63;
+  }
+  .PHP {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+  }
+  .Bootstrap {
+    background-color: #c7d2fe;
+    color: #312e81;
+  }
+  .HTML {
+    background-color: #fed7aa;
+    color: #7c2d12;
+  }
+  .CSS {
+    background-color: #e5e7eb;
+    color: #111827;
+  }
+  .Svelte {
+    background-color: #fecaca;
+    color: #7f1d1d;
+  }
+  .CodeIgniter4 {
+    background-color: #fecaca;
+    color: #7f1d1d;
+  }
+  .FigmaPrototype {
+    background-color: #99f6e4;
+    color: #134e4a;
+  }
+  .MongoDB {
+    background-color: #d9f99d;
+    color: #365314;
+  }
+  .ExpressJS {
+    background-color: #e5e7eb;
+    color: #111827;
+  }
+  .NodeJS {
+    background-color: #bbf7d0;
+    color: #14532d;
+  }
+  .NextJS {
+    background-color: #0f0f0f;
+    color: #ffffff;
+  }
+  .MySql {
+    background-color: #406be1;
+    color: #fff;
+  }
+  .ChakraUi {
+    background-color: #4ad098;
+    color: #236b2f;
+  }
 }

@@ -144,8 +144,8 @@ function Project() {
             What I recently worked on
           </h1>
           <p className="font-medium font-circular text-md text-gray-500 dark:text-whity mt-3 mb-6">
-            Read about some of the products and website I've got the opportunity
-            to work on
+            Read about some of the products and website I&lsquo;ve got the
+            opportunity to work on
           </p>
           {dataProject.map((project) => (
             <CardProject

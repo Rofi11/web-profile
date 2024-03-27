@@ -14,6 +14,7 @@ import cloneMaps from "../../../public/images/thumbnial-clone-maps.png";
 import grab from "../../../public/images/clone-grab-2.png";
 import netflix from "../../../public/images/clone-netflix.png";
 import porto from "../../../public/images/web-porto.png";
+import productIPTV from "../../../public/images/product-iptv.png";
 
 function Project() {
   // for type array object
@@ -40,7 +41,7 @@ function Project() {
 
   const dataProject: data_type[] = [
     {
-      id: 6,
+      id: 7,
       time: "March 2024",
       title: "Portofolio Website",
       image: porto,
@@ -50,7 +51,23 @@ function Project() {
       tech: ["NextJS", "TypeScript", "TailwindCSS"],
     },
     {
-      id: 1,
+      id: 6,
+      time: "March 2023",
+      title: "System IPTV",
+      image: productIPTV,
+      content:
+        "This is an IPTV (Smart TV) system that I created at my last company. This system is used by hotels to assist them in providing the best service to customers through a modern system that can be accessed directly from the TV in each room. Here, I worked as a full-stack developer, creating a content management system and developing a RESTful API for the TVs.",
+      tech: [
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "PostgreSql",
+        "JavaScript",
+        "TailwindCSS",
+      ],
+    },
+    {
+      id: 5,
       time: "January 2023",
       title: "Renting Web Apps (Turu Project)",
       content:
@@ -67,7 +84,7 @@ function Project() {
       ],
     },
     {
-      id: 2,
+      id: 4,
       time: "September 2022",
       title: "Clone Instagram",
       content:
@@ -94,7 +111,7 @@ function Project() {
       tech: ["ReactJS", "JavaScript", "CSS"],
     },
     {
-      id: 4,
+      id: 2,
       time: "July 2022",
       title: "Clone Landing page Grab",
       image: grab,
@@ -103,7 +120,7 @@ function Project() {
       tech: ["HTML", "CSS"],
     },
     {
-      id: 5,
+      id: 1,
       time: "June 2022",
       title: "Clone Landing page Netflix",
       image: netflix,

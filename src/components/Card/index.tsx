@@ -7,7 +7,6 @@ import { CgHashtag } from "react-icons/cg";
 import clsx from "clsx";
 
 function CardProject({
-  key,
   id,
   time,
   title,
@@ -18,7 +17,6 @@ function CardProject({
   prototype,
   tech,
 }: {
-  key: number;
   id: number;
   time: string;
   title: string;

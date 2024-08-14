@@ -64,7 +64,7 @@ export default function MainPage() {
                   priority
                   alt="main-image"
                   src={Avatar}
-                  className="h-[500px] w-[500px]"
+                  className="h-[500px] w-[500px] hidden md:block"
                 />
               </div>
             </motion.div>
